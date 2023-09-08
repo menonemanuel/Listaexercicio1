@@ -11,23 +11,23 @@ import java.util.Scanner;
  * @author emanuel.4966
  */
 public class Ex2 {
-    public static void main(String[] args){
-        Scanner scanner = new Scanner (System.in);
-        
-        int [] numeros = new int[5];
-        
-        for(int i = 0; i < 5; i+++){
-            System.out.println("Informe o valor para a posição [" + 1 +"]: ");
-            numeros[i] scanner.nextInt();
-            
-            
-            System.out.println(" VALORES INFORMADOS ");
-            for(int i = 0; i < 5; i+++){
-                System.out.println("Valor na posição [" + i +"]: ");
-            }
-            
-        }
-        
-        
-    }
+//    public static void main(String[] args){
+//        Scanner scanner = new Scanner (System.in);
+//        
+//        int numeros = new int[];
+//        
+//        for(int i = 0; i < 5; i+++){
+//            System.out.println("Informe o valor para a posição [" + 1 +"]: ");
+//            numeros[i] scanner.nextInt();
+//            
+//            
+//            System.out.println(" VALORES INFORMADOS ");
+//            for(int i = 0; i < 5; i+++){
+//                System.out.println("Valor na posição [" + i +"]: ");
+//            }
+//            
+//        }
+//        
+//        
+//    }
 }
