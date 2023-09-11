@@ -8,25 +8,23 @@ package Ex1;
  *
  * @author emanuel.4966
  */
-public class exx1 {
-     int[] numeros = new int[5];
-     
+public class exx2 {
     public static void main(String args[]){
- 
-      int[] numeros = new int[5];
+        
+    int[] numeros = new int[5];
               
-        numeros[0] = 10;
-        numeros[1] = 10;
-        numeros[2] = 10;
-        numeros[3] = 10;
-        numeros[4] = 10;
-
-        int soma = 0;
+        numeros[0] = 20;
+        numeros[1] = 20;
+        numeros[2] = 20;
+        numeros[3] = 20;
+        numeros[4] = 20;
+        
+        int média = 0;
+        
         for(int i = 0; i < 5; i++){
-        soma = soma + numeros[i]; 
+            
+        média = média + numeros[1] / 5;
     }
-        System.out.println(soma);
+        System.out.println(média);
       }
 }
-              
-            

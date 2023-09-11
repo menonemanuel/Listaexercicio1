@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.exercícios;
+package GitHub;
 
 
 /**
@@ -23,13 +23,11 @@ public class ExercicioGit {
             
             
             int soma = 0;
-            for(int i = 0; i < 5; i+++{
-            soma = soma + numeros[i];
+            for(int i = 0; i < 5; i++){
+           //    System.out.println(Numeros na posição + i + possui o valor + numeros)
+            soma = soma + numeros[i]; 
     }
-            System.out.println(numeros[5]);
-            
-            for(int i = 0; i <5; i++){
-            System.out.println(numeros[i]);
+            System.out.println(soma);
       } 
 }
               
