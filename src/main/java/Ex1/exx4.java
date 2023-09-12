@@ -10,17 +10,24 @@ import java.util.Scanner;
  *
  * @author emanuel.4966
  */
-//public class exx4 {
-//    public static void main(String args[]){
-//     Scanner scanner = new Scanner (System.in);
-    
-//    String nomes = new String[5]
-    
-//     nomes[1] = "Emanuel";
-//     nomes[2] = "Pedro";
-//     nomes[3] = "João";
-//     nomes[4] = "Carlos";
-//     nomes[5] = "Gabriel";
+public class exx4 {
+    public static void main(String args[]){
+  
+      int[] tamanho = {130, 140, 150, 60, 20};
+      
+      System.out.println(tamanho[0]);
+      System.out.println(tamanho[1]);
+      System.out.println(tamanho[2]);
+      System.out.println(tamanho[3]);
+      System.out.println(tamanho[4]);
+      
+      for(int i =5 -1; i >= 0; i--) {
+          
+          System.out.println("Vetor invertido");
+                  System.out.println(tamanho[i]);
+      }
+    }
+}
 //     
 //     
 //}

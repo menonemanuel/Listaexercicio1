@@ -9,5 +9,18 @@ package Ex1;
  * @author emanuel.4966
  */
 public class exx5 {
-    
+    public static void main(String args[]){
+     int[] vetor = {1,2,3,4,5};
+
+     System.out.println("Lista");
+     for(int i = 0; i < vetor.length; i++) {
+       
+             if(vetor [i] % 2 == 0){
+                 System.out.println(vetor[i]);
+                 
+                 System.out.println ("Estes números são pares");
+             }
+         }
+    }
 }
+    
